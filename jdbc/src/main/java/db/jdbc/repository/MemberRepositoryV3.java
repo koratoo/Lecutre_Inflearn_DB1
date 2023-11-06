@@ -5,6 +5,7 @@ import org.springframework.jdbc.datasource.DataSourceUtils;
 import org.springframework.jdbc.support.JdbcUtils;
 
 import javax.sql.DataSource;
+import java.lang.reflect.Member;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -39,4 +40,7 @@ public class MemberRepositoryV3 {
     }
 
 
+    public Member findById(String fromId) {
+        return null;
+    }
 }
