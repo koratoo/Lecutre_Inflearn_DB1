@@ -10,5 +10,9 @@
         <module name="jdbc.jdbc.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdbc.jdbc.main~1" target="11" />
+      <module name="jdbc.jdbc.test~1" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
